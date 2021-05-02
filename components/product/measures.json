@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_product_measures",
+  "info": {
+    "name": "Measures",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "H": {
+      "type": "string"
+    },
+    "W": {
+      "type": "string"
+    },
+    "L": {
+      "type": "string"
+    },
+    "T": {
+      "type": "string"
+    },
+    "Diameter": {
+      "type": "string"
+    }
+  }
+}
