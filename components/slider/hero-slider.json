@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_slider_hero_sliders",
+  "info": {
+    "name": "hero_slider",
+    "icon": "laptop-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hero_sliders": {
+      "collection": "hero-slider"
+    }
+  }
+}

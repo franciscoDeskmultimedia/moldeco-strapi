@@ -23,13 +23,10 @@
     },
     "Measures": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "product.measures"
     },
     "Display": {
-      "type": "string"
-    },
-    "Material": {
       "type": "string"
     },
     "Unit": {
@@ -37,6 +34,37 @@
     },
     "PVP": {
       "type": "string"
+    },
+    "Material": {
+      "model": "material"
+    },
+    "Product_Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Image_data": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
     }
   }
 }
