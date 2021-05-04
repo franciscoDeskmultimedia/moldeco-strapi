@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_product_grid_product_grids",
+  "info": {
+    "name": "product_grid",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "active_grid": {
+      "type": "boolean"
+    }
+  }
+}
