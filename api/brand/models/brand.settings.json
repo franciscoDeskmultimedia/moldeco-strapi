@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "brands",
   "info": {
-    "name": "Brand"
+    "name": "Brand",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,6 +14,18 @@
   "attributes": {
     "Name": {
       "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }
