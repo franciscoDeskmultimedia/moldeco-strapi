@@ -16,7 +16,8 @@
       "type": "dynamiczone",
       "components": [
         "slider.hero-slider",
-        "product-grid.product-grid"
+        "product-grid.product-grid",
+        "page-builder.categories"
       ]
     }
   }

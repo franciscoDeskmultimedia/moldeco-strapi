@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_builder_categories",
+  "info": {
+    "name": "Categories",
+    "icon": "dice-six"
+  },
+  "options": {},
+  "attributes": {
+    "Category_activated": {
+      "type": "boolean"
+    }
+  }
+}
